@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import SharedProducts from '../components/SharedProducts'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero />
+      <SharedProducts />
+    </div>
   )
 }
 

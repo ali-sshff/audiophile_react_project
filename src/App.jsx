@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import Hero from './components/Hero'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Earphones from './pages/Earphones'
@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Hero />
+     <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/earphones' element={<Earphones />} />

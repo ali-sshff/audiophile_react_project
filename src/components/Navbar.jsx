@@ -6,8 +6,10 @@ import Logo from '../assets/shared/desktop/logo.svg'
  const Navbar = () => {
   return (
     <div className='bg-black'>
-      <div className='flex items-center justify-between text-white xl:mx-40 py-8 border-b  '>
-        <img src={ Logo } alt="logo" />
+      <div className='max-container flex items-center justify-between text-white xl:mx-40 py-8 border-b  '>
+        <Link to='/'>
+          <img src={ Logo } alt="logo" /> 
+        </Link>
         <ul className='flex gap-8 justify-center text-sm uppercase xl:w-full'>
           <li>
             <Link to='/'>Home</Link>
