@@ -11,9 +11,17 @@
   scroll-behavior: smooth;
 }
 
+.bg-img {
+    background: url('./assets/home/desktop/image-speaker-zx7.jpg');
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: 100% 100%;
+    background-origin: border-box;
+  }
+
 
 @layer components {
-
+  
 }
 
 @layer utilities {
