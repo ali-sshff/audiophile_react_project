@@ -5,7 +5,7 @@ import Logo from '../assets/shared/desktop/logo.svg'
 
  const Navbar = () => {
   return (
-    <div className='bg-black'>
+    <section className='bg-black'>
       <div className='container mx-auto flex items-center justify-between text-white py-8 border-b  '>
         <Link className='min-w-[10rem]' to='/'>
           <img className='w-full' src={Logo} alt="logo" /> 
@@ -19,7 +19,7 @@ import Logo from '../assets/shared/desktop/logo.svg'
         </div>
           <img src={CartIcon} alt="cart-icon" />
       </div>
-    </div>
+    </section>
   )
 }
 
